@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Weather Test Suite">
-	<test name="Check Weather">
-	<parameter name="browser" value="chrome"></parameter>
+	<test name="Check UI Weather">
+	<parameter name="Automation" value="Web"></parameter>
 		<classes>
 			<class name="com.tv.testcases.WeatherTest" />			
+		</classes>
+	</test>
+	<test name="Check API Weather">
+		<parameter name="Automation" value="API"></parameter>
+		<classes>
+			<class name="com.tv.testcases.APIWeatherTest" />			
 		</classes>
 	</test>
 

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Weather Test Suite]">
-  <test thread-count="5" name="Check Weather(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Check API Weather(failed)">
+    <parameter name="browser" value="API"/>
     <classes>
-      <class name="com.tv.testcases.WeatherTest">
+      <class name="com.tv.testcases.APIWeatherTest">
         <methods>
-          <include name="clickNotificationPopUp"/>
           <include name="triggerDependency"/>
-          <include name="setUp"/>
           <include name="closeBrowser"/>
-          <include name="verifyWeatherPageTitle"/>
+          <include name="generateURL_MemberDetails"/>
+          <include name="verifyStatusCode"/>
+          <include name="getTemprature"/>
         </methods>
-      </class> <!-- com.tv.testcases.WeatherTest -->
+      </class> <!-- com.tv.testcases.APIWeatherTest -->
     </classes>
-  </test> <!-- Check Weather(failed) -->
+  </test> <!-- Check API Weather(failed) -->
 </suite> <!-- Failed suite [Weather Test Suite] -->

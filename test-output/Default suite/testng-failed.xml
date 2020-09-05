@@ -3,18 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tv.testcases.WeatherTest">
+      <class name="com.tv.testcases.APIWeatherTest">
         <methods>
-          <include name="clickNotificationPopUp"/>
           <include name="triggerDependency"/>
-          <include name="setUp"/>
           <include name="closeBrowser"/>
-          <include name="selectCity"/>
-          <include name="verifyHomePageTitle"/>
-          <include name="verifyWeatherPageTitle"/>
-          <include name="clickonWeatherTab"/>
+          <include name="generateURL_MemberDetails"/>
+          <include name="verifyStatusCode"/>
         </methods>
-      </class> <!-- com.tv.testcases.WeatherTest -->
+      </class> <!-- com.tv.testcases.APIWeatherTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

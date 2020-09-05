@@ -13,6 +13,7 @@ public class WeatherTest extends TestBase{
 
 	NdtvHomePage homePage;
 	NdtvWeatherPage weatherPage;
+	public double UI_Temp;
 	Logger log = Logger.getLogger(getClass().getSimpleName());
 
 	@BeforeMethod
@@ -45,7 +46,9 @@ public class WeatherTest extends TestBase{
 	public void selectCity() throws InterruptedException {
 		weatherPage.enterCity();
 		String temprature=weatherPage.getWeather();
-		System.out.println("Temprature is: "+temprature);
+		String sTemp=temprature.replaceAll("\\D", "");
+		UI_Temp=Double.parseDouble(sTemp);
+		System.out.println("UI temp in degree: "+UI_Temp);
 	}
 	
 }

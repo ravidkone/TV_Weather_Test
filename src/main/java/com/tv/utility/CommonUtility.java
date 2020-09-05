@@ -64,5 +64,11 @@ public class CommonUtility {
 		}
 		return false;
 	}
+	
+	public String generateURL(String URI) {
+		if(URI.contains("/v1/"))
+			URI.replaceAll("/v1/", System.getProperty("version"));
+		return TestBase.sHost+URI;
+	}
 
 }

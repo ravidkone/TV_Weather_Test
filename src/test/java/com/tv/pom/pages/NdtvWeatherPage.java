@@ -37,7 +37,7 @@ public class NdtvWeatherPage extends TestBase{
 	}
 	public String getWeather() throws InterruptedException {
 		clickCityWeather.click();
-		oBrowserUtil.waitForElementVisible(driver, getWeatherDetails, 5);
+		oBrowserUtil.waitForElementVisible(driver, getWeatherDetails, 10);
 		return getWeatherDetails.getText();
 	}
 }
