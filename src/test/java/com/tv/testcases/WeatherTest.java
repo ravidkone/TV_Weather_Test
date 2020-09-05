@@ -29,10 +29,10 @@ public class WeatherTest extends TestBase{
 		Assert.assertEquals(Constants.HomePageTitle, homePage.getHomePageTitle());
 	}
 	
-	@Test(priority = 2)
-	public void clickNotificationPopUp() throws InterruptedException {
-		homePage.clickPopUp();
-	}
+//	@Test(priority = 2)
+//	public void clickNotificationPopUp() throws InterruptedException {
+//		homePage.clickPopUp();
+//	}
 	@Test(priority = 3)
 	public void clickonWeatherTab() throws InterruptedException {
 		homePage.clickOnWeatherTab();

@@ -29,7 +29,7 @@ public class NdtvHomePage extends TestBase{
 	}
 	
 	public void clickPopUp() throws InterruptedException {
-		oBrowserUtil.waitForElementVisible(driver, notificationPopUp, 5);
+		oBrowserUtil.waitForElementVisible(driver, notificationPopUp, 3);
 		if(oBrowserUtil.isDisplayed(notificationPopUp)) {
 			notificationPopUp.click();
 		}else {
