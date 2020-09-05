@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Weather Test Suite" duration-ms="213277" started-at="2020-09-05T07:33:06Z" finished-at="2020-09-05T07:36:40Z">
+    <groups>
+    </groups>
+    <test name="Check Weather" duration-ms="213277" started-at="2020-09-05T07:33:06Z" finished-at="2020-09-05T07:36:40Z">
+      <class name="com.tv.testcases.WeatherTest">
+        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="triggerDependency" is-config="true" duration-ms="64808" started-at="2020-09-05T07:33:06Z" finished-at="2020-09-05T07:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triggerDependency -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="setUp" is-config="true" duration-ms="424" started-at="2020-09-05T07:34:11Z" finished-at="2020-09-05T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.tv.testcases.WeatherTest@59494225]" name="verifyHomePageTitle" duration-ms="384" started-at="2020-09-05T07:34:12Z" finished-at="2020-09-05T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="setUp" is-config="true" duration-ms="4" started-at="2020-09-05T07:34:12Z" finished-at="2020-09-05T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickNotificationPopUp()[pri:2, instance:com.tv.testcases.WeatherTest@59494225]" name="clickNotificationPopUp" duration-ms="126135" started-at="2020-09-05T07:34:12Z" finished-at="2020-09-05T07:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNotificationPopUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="setUp" is-config="true" duration-ms="3" started-at="2020-09-05T07:36:18Z" finished-at="2020-09-05T07:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickonWeatherTab()[pri:3, instance:com.tv.testcases.WeatherTest@59494225]" name="clickonWeatherTab" duration-ms="10020" started-at="2020-09-05T07:36:18Z" finished-at="2020-09-05T07:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonWeatherTab -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-05T07:36:28Z" finished-at="2020-09-05T07:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWeatherPageTitle()[pri:4, instance:com.tv.testcases.WeatherTest@59494225]" name="verifyWeatherPageTitle" duration-ms="4183" started-at="2020-09-05T07:36:28Z" finished-at="2020-09-05T07:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherPageTitle -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="setUp" is-config="true" duration-ms="4" started-at="2020-09-05T07:36:32Z" finished-at="2020-09-05T07:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectCity()[pri:5, instance:com.tv.testcases.WeatherTest@59494225]" name="selectCity" duration-ms="5046" started-at="2020-09-05T07:36:32Z" finished-at="2020-09-05T07:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.WeatherTest@59494225]" name="closeBrowser" is-config="true" duration-ms="2146" started-at="2020-09-05T07:36:37Z" finished-at="2020-09-05T07:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tv.testcases.WeatherTest -->
+    </test> <!-- Check Weather -->
+  </suite> <!-- Weather Test Suite -->
+</testng-results>

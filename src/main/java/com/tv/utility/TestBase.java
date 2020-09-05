@@ -30,8 +30,8 @@ public class TestBase {
 	public void triggerDependency(String browser) throws Exception {
 		log.info("Test running on browser: "+browser);
 		
-		oCommon.loadConfigProperty(System.getProperty("user.dir")+"/src/main/java/com/fisdom/properties/config.properties");
-		oCommon.loadLog4jProperty(System.getProperty("user.dir")+"/src/main/java/com/fisdom/properties/log4j.properties");
+		oCommon.loadConfigProperty(System.getProperty("user.dir")+"/src/main/java/com/tv/properties/config.properties");
+		oCommon.loadLog4jProperty(System.getProperty("user.dir")+"/src/main/java/com/tv/properties/log4j.properties");
 
 		if (System.getProperty("AutomationRunning").equalsIgnoreCase(Constants.AutomationWeb)) {
 		//	oBrowserUtil.launchBrowser(System.getProperty("browser"));
