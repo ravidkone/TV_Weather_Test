@@ -14,10 +14,13 @@ public class APIWeatherTest extends TestBase {
 	String sURL;
 	Response res;
 	public double API_Temp;
+	TempComparator tempCmp;
 	Logger log = Logger.getLogger(getClass().getSimpleName());
 
 	@BeforeClass
 	public void generateURL_MemberDetails() throws Exception {
+		tempCmp=new TempComparator();
+	//	sURL=System.getProperty("stageHost")+System.getProperty("weather");
 		sURL = oCommon.generateURL(System.getProperty("weather"));
 		System.out.println("URI is: "+sURL);
 		res = oRestUtil.ufGet(sURL, getCityDetails());
@@ -36,6 +39,8 @@ public class APIWeatherTest extends TestBase {
 	double t1=Double.parseDouble(temprature);
 	API_Temp=t1-t; 
 	System.out.println("API Temp in degree: "+API_Temp);
+	tempCmp.TempDetails.add(new TempratureDetails("API Temprature",API_Temp));
+	System.out.println("API Temprature added to list");
 	res.prettyPrint();
 	}
 	

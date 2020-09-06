@@ -9,8 +9,7 @@
           <include name="triggerDependency"/>
           <include name="setUp"/>
           <include name="closeBrowser"/>
-          <include name="selectCity"/>
-          <include name="clickonWeatherTab"/>
+          <include name="verifyHomePageTitle"/>
         </methods>
       </class> <!-- com.tv.testcases.WeatherTest -->
     </classes>

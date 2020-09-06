@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weather Test Suite">
+	<test name="Check UI Weather">
+	<parameter name="Automation" value="Web"></parameter>
+		<classes>
+			<class name="com.tv.testcases.WeatherTest" />	
+			<class name="com.tv.testcases.APIWeatherTest" />			
+			<class name="com.tv.testcases.TempComparator" />			
+		</classes>
+	</test>
+</suite> 

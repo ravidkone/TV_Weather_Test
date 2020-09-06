@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.Status;
 import com.tv.utility.TestBase;
 
 public class NdtvHomePage extends TestBase{
@@ -36,10 +37,21 @@ public class NdtvHomePage extends TestBase{
 			System.out.println("Pop not availabnle");
 		}
 	}
-	public void clickOnWeatherTab() throws InterruptedException {
+	public void clickOnWeatherTab() throws Exception {
 		oBrowserUtil.waitForElementVisible(driver, subMenu, 5);
+		if(oBrowserUtil.isDisplayed(subMenu)) {
 		subMenu.click();
+		extLogger.log(Status.INFO,"Clicked on sub Menu");
+		}else {
+			throw new Exception("Unable to find sub menu button ");
+		}
+		
 		oBrowserUtil.waitForElementVisible(driver, weatherTab, 5);
+		if(oBrowserUtil.isDisplayed(weatherTab)) {
 		weatherTab.click();
+		extLogger.log(Status.INFO,"Clicked on Weather Tab");
+		}else {
+			throw new Exception("Unable to find Weather Tab");
+		}
 	}
 }

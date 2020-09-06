@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Weather_Test_Suite">
-              <span class="suite-name border-failed">Weather Test Suite</span>
+              <span class="suite-name border-passed">Weather Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Weather_Test_Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Weather_Test_Suite" class="hide-methods failed suite-Weather_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Weather_Test_Suite -->
-                      <a href="#" panel-name="suite-Weather_Test_Suite" class="show-methods failed suite-Weather_Test_Suite"> (show)</a> <!-- show-methods failed suite-Weather_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Weather_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.WeatherTest" hash-for-method="clickonWeatherTab">clickonWeatherTab</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.WeatherTest" hash-for-method="selectCity">selectCity</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Weather_Test_Suite -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,12 +102,22 @@
                     <div class="method-list-content passed suite-Weather_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.WeatherTest" hash-for-method="clickNotificationPopUp">clickNotificationPopUp</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.WeatherTest" hash-for-method="clickonWeatherTab">clickonWeatherTab</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.APIWeatherTest" hash-for-method="getTemprature">getTemprature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.WeatherTest" hash-for-method="selectCity">selectCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.TempComparator" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -156,55 +147,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Weather_Test_Suite" class="panel Weather_Test_Suite">
-          <div class="suite-Weather_Test_Suite-class-failed">
+          <div class="suite-Weather_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.tv.testcases.WeatherTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.tv.testcases.TempComparator</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickonWeatherTab">
-                  </a> <!-- clickonWeatherTab -->
-                  <span class="method-name">clickonWeatherTab</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;LAPTOP-7FEBO63T&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\91876\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: aed01304c2b4493fdb66ba78602aa5f5
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.tv.pom.pages.NdtvHomePage.clickOnWeatherTab(NdtvHomePage.java:43)
-	at com.tv.testcases.WeatherTest.clickonWeatherTab(WeatherTest.java:38)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectCity">
-                  </a> <!-- selectCity -->
-                  <span class="method-name">selectCity</span>
-                  <div class="stack-trace">java.lang.ClassCastException: org.openqa.selenium.By$ById cannot be cast to org.openqa.selenium.WebElement
-	at com.tv.pom.pages.NdtvWeatherPage.checkCity(NdtvWeatherPage.java:58)
-	at com.tv.pom.pages.NdtvWeatherPage.enterCity(NdtvWeatherPage.java:42)
-	at com.tv.testcases.WeatherTest.selectCity(WeatherTest.java:47)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Weather_Test_Suite-class-failed -->
+          </div> <!-- suite-Weather_Test_Suite-class-passed -->
           <div class="suite-Weather_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -213,9 +170,16 @@ Session ID: aed01304c2b4493fdb66ba78602aa5f5
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickNotificationPopUp">
-                  </a> <!-- clickNotificationPopUp -->
-                  <span class="method-name">clickNotificationPopUp</span>
+                  <a name="clickonWeatherTab">
+                  </a> <!-- clickonWeatherTab -->
+                  <span class="method-name">clickonWeatherTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCity">
+                  </a> <!-- selectCity -->
+                  <span class="method-name">selectCity</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -266,6 +230,9 @@ Session ID: aed01304c2b4493fdb66ba78602aa5f5
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Weather Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tv.reports.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Check UI Weather&quot;&gt;
     &lt;parameter name=&quot;Automation&quot; value=&quot;Web&quot;/&gt;
     &lt;classes&gt;
@@ -278,6 +245,11 @@ Session ID: aed01304c2b4493fdb66ba78602aa5f5
       &lt;class name=&quot;com.tv.testcases.APIWeatherTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Check API Weather --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Compare Temprature Values&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tv.testcases.TempComparator&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Compare Temprature Values --&gt;
 &lt;/suite&gt; &lt;!-- Weather Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -293,6 +265,9 @@ Session ID: aed01304c2b4493fdb66ba78602aa5f5
               </li>
               <li>
                 <span class="test-name">Check API Weather (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Compare Temprature Values (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -320,38 +295,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickNotificationPopUp')
+data.setCell(0, 1, 'clickonWeatherTab')
 data.setCell(0, 2, 'com.tv.testcases.WeatherTest')
-data.setCell(0, 3, 99209);
+data.setCell(0, 3, 31863);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickonWeatherTab')
+data.setCell(1, 1, 'verifyWeatherPageTitle')
 data.setCell(1, 2, 'com.tv.testcases.WeatherTest')
-data.setCell(1, 3, 29666);
+data.setCell(1, 3, 13597);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectCity')
 data.setCell(2, 2, 'com.tv.testcases.WeatherTest')
-data.setCell(2, 3, 16940);
+data.setCell(2, 3, 11484);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getTemprature')
-data.setCell(3, 2, 'com.tv.testcases.APIWeatherTest')
-data.setCell(3, 3, 5841);
+data.setCell(3, 1, 'verifyHomePageTitle')
+data.setCell(3, 2, 'com.tv.testcases.WeatherTest')
+data.setCell(3, 3, 8424);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyWeatherPageTitle')
-data.setCell(4, 2, 'com.tv.testcases.WeatherTest')
-data.setCell(4, 3, 1916);
+data.setCell(4, 1, 'getTemprature')
+data.setCell(4, 2, 'com.tv.testcases.APIWeatherTest')
+data.setCell(4, 3, 4001);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyHomePageTitle')
-data.setCell(5, 2, 'com.tv.testcases.WeatherTest')
-data.setCell(5, 3, 1004);
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'com.tv.testcases.TempComparator')
+data.setCell(5, 3, 16);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyStatusCode')
 data.setCell(6, 2, 'com.tv.testcases.APIWeatherTest')
-data.setCell(6, 3, 48);
+data.setCell(6, 3, 15);
 window.suiteTableData['Weather_Test_Suite']= { tableData: data, tableDiv: 'times-div-Weather_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Weather_Test_Suite">
               </div> <!-- times-div-Weather_Test_Suite -->
             </div> <!-- times-div -->
@@ -384,75 +359,70 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">111268 ms</span>
+                <span class="method-start">57712 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitle</span>
-                <span class="method-start">114105 ms</span>
+                <span class="method-start">59438 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">115135 ms</span>
+                <span class="method-start">67878 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickNotificationPopUp</span>
-                <span class="method-start">115138 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">214358 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">clickonWeatherTab</span>
-                <span class="method-start">214373 ms</span>
+                <span class="method-start">67882 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">244268 ms</span>
+                <span class="method-start">99757 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyWeatherPageTitle</span>
-                <span class="method-start">244297 ms</span>
+                <span class="method-start">99765 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">246236 ms</span>
+                <span class="method-start">113370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">selectCity</span>
-                <span class="method-start">246245 ms</span>
+                <span class="method-start">113370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">263191 ms</span>
+                <span class="method-start">124858 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.testcases.APIWeatherTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">triggerDependency(API)</span>
-                <span class="method-start">272961 ms</span>
+                <span class="method-start">128836 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">generateURL_MemberDetails</span>
-                <span class="method-start">273562 ms</span>
+                <span class="method-start">128906 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyStatusCode</span>
-                <span class="method-start">282645 ms</span>
+                <span class="method-start">135799 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getTemprature</span>
-                <span class="method-start">282717 ms</span>
+                <span class="method-start">136002 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">288586 ms</span>
+                <span class="method-start">140031 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.testcases.TempComparator</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">140503 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

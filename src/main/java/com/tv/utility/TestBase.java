@@ -3,10 +3,7 @@ package com.tv.utility;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -20,10 +17,8 @@ public class TestBase {
 	public static RestUtility oRestUtil=new RestUtility();
 	public static String sHost = null;
 	public static String sClassNameForScreenShot;
-
     public static ExtentTest extLogger;
 	public static WebDriver driver;
-	
 	Logger log=Logger.getLogger(getClass().getSimpleName());
 
 	@BeforeClass

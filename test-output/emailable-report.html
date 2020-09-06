@@ -9,42 +9,21 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Weather Test Suite</th></tr>
-<tr><td><a href="#t0">Check UI Weather</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">272,494</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Check API Weather</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">15,631</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num attn">2</th><th class="num">288,125</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Check UI Weather</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">127,317</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Check API Weather</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">11,210</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Compare Temprature Values</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">88</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num">138,615</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check UI Weather &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.tv.testcases.WeatherTest</td><td><a href="#m0">clickonWeatherTab</a></td><td rowspan="1">1599333357675</td><td rowspan="1">29666</td></tr><tr class="failedeven"><td><a href="#m1">selectCity</a></td><td rowspan="1">1599333389547</td><td rowspan="1">16940</td></tr><tr><th colspan="4">Check UI Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.tv.testcases.WeatherTest</td><td><a href="#m2">clickNotificationPopUp</a></td><td rowspan="1">1599333258440</td><td rowspan="1">99209</td></tr><tr class="passedeven"><td><a href="#m3">verifyHomePageTitle</a></td><td rowspan="1">1599333257407</td><td rowspan="1">1004</td></tr><tr class="passedeven"><td><a href="#m4">verifyWeatherPageTitle</a></td><td rowspan="1">1599333387599</td><td rowspan="1">1916</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Check API Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.tv.testcases.APIWeatherTest</td><td><a href="#m5">getTemprature</a></td><td rowspan="1">1599333426019</td><td rowspan="1">5841</td></tr><tr class="passedeven"><td><a href="#m6">verifyStatusCode</a></td><td rowspan="1">1599333425947</td><td rowspan="1">48</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check UI Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.tv.testcases.WeatherTest</td><td><a href="#m0">clickonWeatherTab</a></td><td rowspan="1">1599381901781</td><td rowspan="1">31863</td></tr><tr class="passedeven"><td><a href="#m1">selectCity</a></td><td rowspan="1">1599381947269</td><td rowspan="1">11484</td></tr><tr class="passedeven"><td><a href="#m2">verifyHomePageTitle</a></td><td rowspan="1">1599381893337</td><td rowspan="1">8424</td></tr><tr class="passedeven"><td><a href="#m3">verifyWeatherPageTitle</a></td><td rowspan="1">1599381933664</td><td rowspan="1">13597</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Check API Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.tv.testcases.APIWeatherTest</td><td><a href="#m4">getTemprature</a></td><td rowspan="1">1599381969901</td><td rowspan="1">4001</td></tr><tr class="passedeven"><td><a href="#m5">verifyStatusCode</a></td><td rowspan="1">1599381969698</td><td rowspan="1">15</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Compare Temprature Values &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.tv.testcases.TempComparator</td><td><a href="#m6">test</a></td><td rowspan="1">1599381974402</td><td rowspan="1">16</td></tr></tbody>
 </table>
-<h2>Check UI Weather</h2><h3 id="m0">com.tv.testcases.WeatherTest#clickonWeatherTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;LAPTOP-7FEBO63T&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\91876\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: aed01304c2b4493fdb66ba78602aa5f5
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.tv.pom.pages.NdtvHomePage.clickOnWeatherTab(NdtvHomePage.java:43)
-	at com.tv.testcases.WeatherTest.clickonWeatherTab(WeatherTest.java:38)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.tv.testcases.WeatherTest#selectCity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ClassCastException: org.openqa.selenium.By$ById cannot be cast to org.openqa.selenium.WebElement
-	at com.tv.pom.pages.NdtvWeatherPage.checkCity(NdtvWeatherPage.java:58)
-	at com.tv.pom.pages.NdtvWeatherPage.enterCity(NdtvWeatherPage.java:42)
-	at com.tv.testcases.WeatherTest.selectCity(WeatherTest.java:47)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.tv.testcases.WeatherTest#clickNotificationPopUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.tv.testcases.WeatherTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.tv.testcases.WeatherTest#verifyWeatherPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Check API Weather</h2><h3 id="m5">com.tv.testcases.APIWeatherTest#getTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.tv.testcases.APIWeatherTest#verifyStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Check UI Weather</h2><h3 id="m0">com.tv.testcases.WeatherTest#clickonWeatherTab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tv.testcases.WeatherTest#selectCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tv.testcases.WeatherTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tv.testcases.WeatherTest#verifyWeatherPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Check API Weather</h2><h3 id="m4">com.tv.testcases.APIWeatherTest#getTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tv.testcases.APIWeatherTest#verifyStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Compare Temprature Values</h2><h3 id="m6">com.tv.testcases.TempComparator#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
