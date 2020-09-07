@@ -3,7 +3,8 @@ package com.tv.utility;
 public class Constants {
 
 	//Environment and Running app (to avoid driver.quit error)
-	public static final String AutomationWeb = "Web", AutomationAPI = "API";
+	//public static final String AutomationWeb = "Web", AutomationAPI = "API";
+	public static String AutomationWeb = null;
 	public static final String Environment = "prod", contentType = "application/json";
 	
 	//HTTP Error codes for status return validation

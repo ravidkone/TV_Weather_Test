@@ -29,15 +29,15 @@ public class TestBase {
 		oCommon.loadConfigProperty(System.getProperty("user.dir")+"/src/main/java/com/tv/properties/config.properties");
 		oCommon.loadLog4jProperty(System.getProperty("user.dir")+"/src/main/java/com/tv/properties/log4j.properties");
 
-		if (Constants.AutomationWeb.equalsIgnoreCase(automation)) {
+		if (automation.equalsIgnoreCase("web")) {
 			oBrowserUtil.launchBrowser("chrome");
 
 			log.info("Automation running on: "+automation);
 			log.info("Environment is: "+System.getProperty("Environment"));
 	
 		}
-		if (Constants.AutomationAPI.equalsIgnoreCase(automation)) {
-			log.info("Automation running on: "+automation);
+		if (automation.equalsIgnoreCase("api")) {
+			//log.info("Automation running on: "+automation);
 			log.info("Environment is: "+System.getProperty("Environment"));
 			sHost = System.getProperty("stageHost");
 		} 

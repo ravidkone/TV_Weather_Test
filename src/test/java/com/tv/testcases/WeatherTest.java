@@ -14,15 +14,20 @@ public class WeatherTest extends TestBase{
 
 	NdtvHomePage homePage;
 	NdtvWeatherPage weatherPage;
-	TempComparator tempCmp;
 	public double UI_Temp;
+	public double APITemp;
+	APIWeatherTest aw;
 	Logger log = Logger.getLogger(getClass().getSimpleName());
+	
+//	public WeatherTest() {
+//		Constants.AutomationWeb="Web";
+//	}
 
 	@BeforeMethod
 	public void setUp() {
 		homePage = new NdtvHomePage(driver);
 		weatherPage=new NdtvWeatherPage(driver);
-		tempCmp=new TempComparator();
+		aw=new APIWeatherTest();
 		sClassNameForScreenShot = getClass().getSimpleName();
 	}
 	
@@ -53,14 +58,20 @@ public class WeatherTest extends TestBase{
 
 	}
 	@Test(priority = 5)
-	public void selectCity() throws InterruptedException {
+	public void selectCity() throws Exception {
 		weatherPage.enterCity();
 		String temprature=weatherPage.getWeather();
 		String sTemp=temprature.replaceAll("\\D", "");
 		UI_Temp=Double.parseDouble(sTemp);
 		System.out.println("UI temp in degree: "+UI_Temp);
-		tempCmp.TempDetails.add(new TempratureDetails("UI Temprature",UI_Temp));
+	//	tempCmp.TempDetails.add(new TempratureDetails("UI Temprature",UI_Temp));
 		System.out.println("UI Temprature added to list");
+		
+	//	APITemp=aw.API_Temp;
+	//	System.out.println("api temp is: "+APITemp);
+		
 	}
+	
+	
 	
 }

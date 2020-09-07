@@ -1,64 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Weather Test Suite" duration-ms="140610" started-at="2020-09-06T08:43:53Z" finished-at="2020-09-06T08:46:14Z">
+  <suite name="Weather Test Suite" duration-ms="27624" started-at="2020-09-06T18:18:18Z" finished-at="2020-09-06T18:18:46Z">
     <groups>
     </groups>
-    <test name="Check UI Weather" duration-ms="127317" started-at="2020-09-06T08:43:53Z" finished-at="2020-09-06T08:46:01Z">
-      <class name="com.tv.testcases.WeatherTest">
-        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="triggerDependency" is-config="true" duration-ms="57688" started-at="2020-09-06T08:43:53Z" finished-at="2020-09-06T08:44:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Web]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- triggerDependency -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="setUp" is-config="true" duration-ms="1726" started-at="2020-09-06T08:44:51Z" finished-at="2020-09-06T08:44:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.tv.testcases.WeatherTest@51b279c9]" name="verifyHomePageTitle" duration-ms="8424" started-at="2020-09-06T08:44:53Z" finished-at="2020-09-06T08:45:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="setUp" is-config="true" duration-ms="4" started-at="2020-09-06T08:45:01Z" finished-at="2020-09-06T08:45:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickonWeatherTab()[pri:3, instance:com.tv.testcases.WeatherTest@51b279c9]" name="clickonWeatherTab" duration-ms="31863" started-at="2020-09-06T08:45:01Z" finished-at="2020-09-06T08:45:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonWeatherTab -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="setUp" is-config="true" duration-ms="8" started-at="2020-09-06T08:45:33Z" finished-at="2020-09-06T08:45:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyWeatherPageTitle()[pri:4, instance:com.tv.testcases.WeatherTest@51b279c9]" name="verifyWeatherPageTitle" duration-ms="13597" started-at="2020-09-06T08:45:33Z" finished-at="2020-09-06T08:45:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWeatherPageTitle -->
-        <test-method status="PASS" signature="selectCity()[pri:5, instance:com.tv.testcases.WeatherTest@51b279c9]" name="selectCity" duration-ms="11484" started-at="2020-09-06T08:45:47Z" finished-at="2020-09-06T08:45:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCity -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-06T08:45:47Z" finished-at="2020-09-06T08:45:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.WeatherTest@51b279c9]" name="closeBrowser" is-config="true" duration-ms="2414" started-at="2020-09-06T08:45:58Z" finished-at="2020-09-06T08:46:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.tv.testcases.WeatherTest -->
-    </test> <!-- Check UI Weather -->
-    <test name="Check API Weather" duration-ms="11210" started-at="2020-09-06T08:46:02Z" finished-at="2020-09-06T08:46:13Z">
+    <test name="Check API Weather" duration-ms="27624" started-at="2020-09-06T18:18:18Z" finished-at="2020-09-06T18:18:46Z">
       <class name="com.tv.testcases.APIWeatherTest">
-        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.APIWeatherTest@517cd4b]" name="triggerDependency" is-config="true" duration-ms="70" started-at="2020-09-06T08:46:02Z" finished-at="2020-09-06T08:46:02Z">
+        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.APIWeatherTest@1ad282e0]" name="triggerDependency" is-config="true" duration-ms="550" started-at="2020-09-06T18:18:18Z" finished-at="2020-09-06T18:18:19Z">
           <params>
             <param index="0">
               <value>
@@ -69,31 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- triggerDependency -->
-        <test-method status="PASS" signature="generateURL_MemberDetails()[pri:0, instance:com.tv.testcases.APIWeatherTest@517cd4b]" name="generateURL_MemberDetails" is-config="true" duration-ms="6893" started-at="2020-09-06T08:46:02Z" finished-at="2020-09-06T08:46:09Z">
+        <test-method status="PASS" signature="generateURL_MemberDetails()[pri:0, instance:com.tv.testcases.APIWeatherTest@1ad282e0]" name="generateURL_MemberDetails" is-config="true" duration-ms="26581" started-at="2020-09-06T18:18:19Z" finished-at="2020-09-06T18:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateURL_MemberDetails -->
-        <test-method status="PASS" signature="verifyStatusCode()[pri:1, instance:com.tv.testcases.APIWeatherTest@517cd4b]" name="verifyStatusCode" duration-ms="15" started-at="2020-09-06T08:46:09Z" finished-at="2020-09-06T08:46:09Z">
+        <test-method status="PASS" signature="verifyStatusCode()[pri:1, instance:com.tv.testcases.APIWeatherTest@1ad282e0]" name="verifyStatusCode" duration-ms="159" started-at="2020-09-06T18:18:46Z" finished-at="2020-09-06T18:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusCode -->
-        <test-method status="PASS" signature="getTemprature()[pri:2, instance:com.tv.testcases.APIWeatherTest@517cd4b]" name="getTemprature" duration-ms="4001" started-at="2020-09-06T08:46:09Z" finished-at="2020-09-06T08:46:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTemprature -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.APIWeatherTest@517cd4b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-06T08:46:13Z" finished-at="2020-09-06T08:46:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.APIWeatherTest@1ad282e0]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2020-09-06T18:18:46Z" finished-at="2020-09-06T18:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.tv.testcases.APIWeatherTest -->
     </test> <!-- Check API Weather -->
-    <test name="Compare Temprature Values" duration-ms="88" started-at="2020-09-06T08:46:14Z" finished-at="2020-09-06T08:46:14Z">
-      <class name="com.tv.testcases.TempComparator">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.tv.testcases.TempComparator@49c43f4e]" name="test" duration-ms="16" started-at="2020-09-06T08:46:14Z" finished-at="2020-09-06T08:46:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.tv.testcases.TempComparator -->
-    </test> <!-- Compare Temprature Values -->
   </suite> <!-- Weather Test Suite -->
 </testng-results>

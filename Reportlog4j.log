@@ -382,3 +382,117 @@
 2020-09-06 14:16:02 INFO  APIWeatherTest 40 - Automation running on: API
 2020-09-06 14:16:02 INFO  APIWeatherTest 41 - Environment is: stage
 2020-09-06 14:16:13 INFO  APIWeatherTest 50 - Browser Closed
+2020-09-06 19:50:19 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 19:51:55 INFO  WeatherTest 38 - Automation running on: Web
+2020-09-06 19:51:55 INFO  WeatherTest 39 - Environment is: stage
+2020-09-06 19:51:59 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> id: h_sub_menu]
+2020-09-06 19:52:01 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> id: h_sub_menu]
+2020-09-06 19:52:06 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 19:52:07 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 19:52:19 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> id: searchBox]
+2020-09-06 19:52:21 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> id: searchBox]
+2020-09-06 19:52:24 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> id: searchBox]
+2020-09-06 19:52:35 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (db3d5caca4c0c3a134fc375845cc9868)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-06 19:52:44 INFO  WeatherTest 53 - Browser Closed
+2020-09-06 19:52:46 INFO  APIWeatherTest 30 - Test running on: API
+2020-09-06 19:52:46 INFO  CommonUtility 29 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/config.properties
+2020-09-06 19:52:46 INFO  CommonUtility 36 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/log4j.properties
+2020-09-06 19:52:46 INFO  APIWeatherTest 43 - Automation running on: API
+2020-09-06 19:52:46 INFO  APIWeatherTest 44 - Environment is: stage
+2020-09-06 19:52:59 INFO  APIWeatherTest 53 - Browser Closed
+2020-09-06 21:02:13 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:03:33 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:03:33 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:03:37 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:07:18 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:08:06 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:08:06 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:08:11 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:09:19 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:10:07 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:10:07 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:10:11 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:10:42 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:11:23 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:11:23 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:11:27 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:14:41 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:15:40 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:15:40 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:15:43 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (ac365d6a0058138ae7e0cff4266a6f2a)] -> id: h_sub_menu]
+2020-09-06 21:16:18 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:17:00 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:17:47 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:17:47 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:17:50 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (9d1c200ab3f11fd684899e76d1f4fc3e)] -> id: h_sub_menu]
+2020-09-06 21:17:51 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (9d1c200ab3f11fd684899e76d1f4fc3e)] -> id: h_sub_menu]
+2020-09-06 21:17:55 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:38:22 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:40:41 INFO  CompareTemp 38 - Environment is: stage
+2020-09-06 21:40:41 INFO  CompareTemp 43 - Environment is: stage
+2020-09-06 21:42:09 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (2ed77ebb351cdbe2e3b3cbb3e9cd9c08)] -> id: h_sub_menu]
+2020-09-06 21:42:10 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (2ed77ebb351cdbe2e3b3cbb3e9cd9c08)] -> id: h_sub_menu]
+2020-09-06 21:42:15 INFO  CompareTemp 52 - Browser Closed
+2020-09-06 21:42:42 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:44:20 INFO  WeatherTest 38 - Environment is: stage
+2020-09-06 21:44:20 INFO  WeatherTest 43 - Environment is: stage
+2020-09-06 21:44:42 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (fba716aec86bd0d21d93d1d6d17d29fd)] -> id: h_sub_menu]
+2020-09-06 21:44:46 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (fba716aec86bd0d21d93d1d6d17d29fd)] -> id: h_sub_menu]
+2020-09-06 21:46:50 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 21:49:09 INFO  WeatherTest 38 - Environment is: stage
+2020-09-06 21:49:46 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (0a99c2871f709938679eddd1d971298c)] -> id: h_sub_menu]
+2020-09-06 21:49:47 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (0a99c2871f709938679eddd1d971298c)] -> id: h_sub_menu]
+2020-09-06 22:02:33 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 22:03:25 INFO  CompareTemp 35 - Environment is: stage
+2020-09-06 22:04:56 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (d3090d575d23f0f53a768b954704a22e)] -> id: h_sub_menu]
+2020-09-06 22:04:57 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (d3090d575d23f0f53a768b954704a22e)] -> id: h_sub_menu]
+2020-09-06 22:05:01 INFO  CompareTemp 49 - Browser Closed
+2020-09-06 22:07:58 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 22:09:21 INFO  WeatherTest 35 - Environment is: stage
+2020-09-06 22:09:38 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (69c27a7668f8a5fc2a9fabd2ebcaf7f2)] -> id: h_sub_menu]
+2020-09-06 22:16:26 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 22:19:11 INFO  WeatherTest 35 - Environment is: stage
+2020-09-06 22:20:11 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> id: h_sub_menu]
+2020-09-06 22:20:15 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> id: h_sub_menu]
+2020-09-06 22:20:22 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 22:20:24 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 22:20:58 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> id: searchBox]
+2020-09-06 22:20:58 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> id: searchBox]
+2020-09-06 22:20:59 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> id: searchBox]
+2020-09-06 22:21:15 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (80232366c8cf299ffe972afe02b9e5c6)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-06 22:21:19 INFO  WeatherTest 49 - Browser Closed
+2020-09-06 22:21:23 INFO  CommonUtility 29 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/config.properties
+2020-09-06 22:21:23 INFO  CommonUtility 36 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/log4j.properties
+2020-09-06 22:21:23 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 22:24:02 INFO  APIWeatherTest 35 - Environment is: stage
+2020-09-06 22:28:15 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 22:31:56 INFO  WeatherTest 35 - Automation running on: Web
+2020-09-06 22:31:56 INFO  WeatherTest 36 - Environment is: stage
+2020-09-06 22:32:04 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> id: h_sub_menu]
+2020-09-06 22:32:05 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> id: h_sub_menu]
+2020-09-06 22:32:11 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 22:32:13 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> xpath: //a[text()='WEATHER']]
+2020-09-06 22:33:05 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> id: searchBox]
+2020-09-06 22:33:06 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> id: searchBox]
+2020-09-06 22:33:07 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> id: searchBox]
+2020-09-06 22:33:27 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (e4a709c98396349b1f3e6e5927f15a2d)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-06 22:33:33 INFO  WeatherTest 50 - Browser Closed
+2020-09-06 22:33:35 INFO  APIWeatherTest 27 - Test running on: API
+2020-09-06 22:33:35 INFO  CommonUtility 29 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/config.properties
+2020-09-06 22:33:35 INFO  CommonUtility 36 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/log4j.properties
+2020-09-06 22:33:35 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 22:33:52 INFO  APIWeatherTest 50 - Browser Closed
+2020-09-06 23:34:51 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:35:21 INFO  WeatherTest 27 - Test running on: Web
+2020-09-06 23:35:21 INFO  CommonUtility 29 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/config.properties
+2020-09-06 23:35:21 INFO  CommonUtility 36 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/log4j.properties
+2020-09-06 23:35:21 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-06 23:43:26 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:45:31 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:46:40 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:48:19 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:56:52 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-06 23:57:35 INFO  WeatherTest 27 - Test running on: Web
+2020-09-06 23:57:35 INFO  CommonUtility 29 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/config.properties
+2020-09-06 23:57:35 INFO  CommonUtility 36 - Current dir using System:E:\Cowrks Project\Weather_Project/src/main/java/com/tv/properties/log4j.properties
+2020-09-06 23:57:35 INFO  BrowserUtility 22 - Launching Browser: chrome

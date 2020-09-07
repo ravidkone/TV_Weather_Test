@@ -1,29 +1,23 @@
 package com.tv.testcases;
 
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Set;
 
 import org.testng.annotations.Test;
 
-public class TempComparator {
+import com.tv.utility.TestBase;
+
+public class TempComparator extends TestBase{
 
 	WeatherTest uiWeather = new WeatherTest();
 	APIWeatherTest apiWeather = new APIWeatherTest();
 	LinkedList<TempratureDetails> TempDetails;
 
-	public TempComparator() {
-		TempDetails = new LinkedList<TempratureDetails>();
-		TempDetails.add(new TempratureDetails("ravi", 33.00));
-	}
 
 	@Test
 	public void test() {
-		System.out.println("List of Temps");
-		Iterator<TempratureDetails> it = TempDetails.iterator();
-		while (it.hasNext()) {
-			TempratureDetails tp = it.next();
-			System.out.println("Name: " + tp.cityName + "  Temp is: " + tp.temp);
-		}
 
 		String res = compare(uiWeather.UI_Temp, apiWeather.API_Temp);
 		System.out.println("result is:" + res);
