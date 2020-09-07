@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Weather Test Suite]">
-  <test thread-count="5" name="Check UI Weather(failed)">
+  <listeners>
+    <listener class-name="com.tv.reports.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Compare Temprature Values(failed)">
     <parameter name="Automation" value="Web"/>
     <classes>
-      <class name="com.tv.testcases.WeatherTest">
+      <class name="com.tv.testcases.CompareTemp">
         <methods>
           <include name="triggerDependency"/>
-          <include name="setUp"/>
+          <include name="getUITemprature"/>
           <include name="closeBrowser"/>
-          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.tv.testcases.WeatherTest -->
+      </class> <!-- com.tv.testcases.CompareTemp -->
     </classes>
-  </test> <!-- Check UI Weather(failed) -->
+  </test> <!-- Compare Temprature Values(failed) -->
 </suite> <!-- Failed suite [Weather Test Suite] -->

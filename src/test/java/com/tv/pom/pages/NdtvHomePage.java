@@ -30,7 +30,7 @@ public class NdtvHomePage extends TestBase{
 	}
 	
 	public void clickPopUp() throws InterruptedException {
-		oBrowserUtil.waitForElementVisible(driver, notificationPopUp, 3);
+		oBrowserUtil.waitForElementVisible(driver, notificationPopUp, 2);
 		if(oBrowserUtil.isDisplayed(notificationPopUp)) {
 			notificationPopUp.click();
 		}else {
@@ -38,7 +38,7 @@ public class NdtvHomePage extends TestBase{
 		}
 	}
 	public void clickOnWeatherTab() throws Exception {
-		oBrowserUtil.waitForElementVisible(driver, subMenu, 5);
+		oBrowserUtil.waitForElementVisible(driver, subMenu, 2);
 		if(oBrowserUtil.isDisplayed(subMenu)) {
 		subMenu.click();
 		extLogger.log(Status.INFO,"Clicked on sub Menu");
@@ -46,7 +46,7 @@ public class NdtvHomePage extends TestBase{
 			throw new Exception("Unable to find sub menu button ");
 		}
 		
-		oBrowserUtil.waitForElementVisible(driver, weatherTab, 5);
+		oBrowserUtil.waitForElementVisible(driver, weatherTab, 2);
 		if(oBrowserUtil.isDisplayed(weatherTab)) {
 		weatherTab.click();
 		extLogger.log(Status.INFO,"Clicked on Weather Tab");

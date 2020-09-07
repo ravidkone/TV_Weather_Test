@@ -3,6 +3,7 @@ package com.tv.utility;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Properties;
 
 import javax.imageio.ImageIO;
@@ -64,11 +65,32 @@ public class CommonUtility {
 		}
 		return false;
 	}
-	
+
 	public String generateURL(String URI) {
-		if(URI.contains("/v1/"))
-			URI.replaceAll("/v1/", System.getProperty("version"));
-		return TestBase.sHost+URI;
+		if (TestBase.sHost == null) {
+			TestBase.sHost = System.getProperty("stageHost");
+			return TestBase.sHost + URI;
+		} else {
+			return TestBase.sHost + URI;
+		}
 	}
 
+	public HashMap<String, String> getCityDetails() {
+		HashMap<String, String> params = new HashMap<String, String>();
+		params.put("q", "Kanpur");
+		params.put("appid", "7fe67bf08c80ded756e598d6f8fedaea");
+		return params;
+	}
+	
+	public String compare(Double t1, Double t2) {
+		System.out.println("UI Temp: " + t1);
+		System.out.println("API Temp: " + t2);
+		System.out.println("Differance value is: " + (t1-t2));
+		if ((t1-t2) == 0 || (t1-t2) < -2 ||(t1-t2) < 2) {
+			return "Pass";
+		} else {
+			return "Fail";
+		}
+
+	}
 }

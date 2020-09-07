@@ -26,7 +26,7 @@ public class APIWeatherTest extends TestBase {
 	//	sURL=System.getProperty("stageHost")+System.getProperty("weather");
 		sURL = oCommon.generateURL(System.getProperty("weather"));
 		System.out.println("URI is: "+sURL);
-		res = oRestUtil.ufGet(sURL, getCityDetails());
+		res = oRestUtil.ufGet(sURL, oCommon.getCityDetails());
 	}
 
 	@Test(priority = 1)
@@ -47,13 +47,6 @@ public class APIWeatherTest extends TestBase {
 	res.prettyPrint();
 	
 //	return API_Temp;
-	}
-	
-	public HashMap<String, String> getCityDetails() {
-		HashMap<String, String> params = new HashMap<String, String>();
-		params.put("q", "Kanpur");
-		params.put("appid", "7fe67bf08c80ded756e598d6f8fedaea");
-		return params;
 	}
 
 }

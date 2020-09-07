@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weather Test Suite">
+	<listeners>
+		<listener class-name="com.tv.reports.TestListener" />
+	</listeners>
+
+	<test name="Check API Weather">
+		<parameter name="Automation" value="API"></parameter>
+		<classes>
+			<class name="com.tv.testcases.APIWeatherTest" />
+		</classes>
+	</test>
+	<test name="Check UI Weather">
+		<parameter name="Automation" value="Web"></parameter>
+		<classes>
+			<class name="com.tv.testcases.WeatherTest" />
+		</classes>
+	</test>
+
+</suite> 

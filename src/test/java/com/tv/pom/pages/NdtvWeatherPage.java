@@ -33,11 +33,11 @@ public class NdtvWeatherPage extends TestBase {
 	}
 
 	public String getWeatherPageTitle() throws InterruptedException {
-		oBrowserUtil.waitForElementVisible(driver, searchTab, 5);
+		oBrowserUtil.waitForElementVisible(driver, searchTab, 2);
 		return driver.getTitle();
 	}
 
-	public void enterCity() {
+	public void enterCity() throws InterruptedException {
 		if (checkCity(Citylist)) {
 			System.out.println("Entered city available to checking weather details");
 		} else {
@@ -47,12 +47,14 @@ public class NdtvWeatherPage extends TestBase {
 		}
 	}
 
-	public boolean checkCity(List<WebElement> list) {
+	public boolean checkCity(List<WebElement> list) throws InterruptedException {
 		for (WebElement ele : list) {
 			String city = ele.getAttribute("for");
 			if (ele.getAttribute("for").equals(System.getProperty("city"))) {
 				searchTab.sendKeys(System.getProperty("city"));
-				driver.findElement(By.id(city)).click();
+				oBrowserUtil.waitForElementVisible(driver, selectCity, 3);
+			WebElement	selectCity=driver.findElement(By.id(city));
+			selectCity.click();
 				return true;
 			}
 		}

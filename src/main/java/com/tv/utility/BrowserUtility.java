@@ -1,5 +1,6 @@
 package com.tv.utility;
 
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -68,11 +69,6 @@ public class BrowserUtility extends TestBase {
 
 		return bRes_flag;
 
-	}
-
-	public void switchFrame() {
-
-		driver.switchTo().frame(1);
 	}
 
 }

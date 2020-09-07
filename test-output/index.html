@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Weather_Test_Suite">
-                    <span>E:\Cowrks Project\Weather_Project\testng.xml</span>
+                    <span>C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test\compareTemprature.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Weather_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.APIWeatherTest" hash-for-method="verifyStatusCode">verifyStatusCode</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.CompareTemp" hash-for-method="compareTemprature">compareTemprature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.CompareTemp" hash-for-method="getAPITemprature">getAPITemprature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Weather_Test_Suite" title="com.tv.testcases.CompareTemp" hash-for-method="getUITemprature">getUITemprature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Weather_Test_Suite -->
@@ -120,14 +130,28 @@
           <div class="suite-Weather_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.tv.testcases.APIWeatherTest</span>
+              <span class="class-name">com.tv.testcases.CompareTemp</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyStatusCode">
-                  </a> <!-- verifyStatusCode -->
-                  <span class="method-name">verifyStatusCode</span>
+                  <a name="compareTemprature">
+                  </a> <!-- compareTemprature -->
+                  <span class="method-name">compareTemprature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAPITemprature">
+                  </a> <!-- getAPITemprature -->
+                  <span class="method-name">getAPITemprature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUITemprature">
+                  </a> <!-- getUITemprature -->
+                  <span class="method-name">getUITemprature</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +159,7 @@
         </div> <!-- panel Weather_Test_Suite -->
         <div panel-name="test-xml-Weather_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Cowrks Project\Weather_Project\testng.xml</span>
+            <span class="header-content">C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test\compareTemprature.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,12 +169,12 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.tv.reports.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Check API Weather&quot;&gt;
-    &lt;parameter name=&quot;Automation&quot; value=&quot;API&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Compare Temprature Values&quot;&gt;
+    &lt;parameter name=&quot;Automation&quot; value=&quot;Web&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.tv.testcases.APIWeatherTest&quot;/&gt;
+      &lt;class name=&quot;com.tv.testcases.CompareTemp&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Check API Weather --&gt;
+  &lt;/test&gt; &lt;!-- Compare Temprature Values --&gt;
 &lt;/suite&gt; &lt;!-- Weather Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +186,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Check API Weather (1 class)</span>
+                <span class="test-name">Compare Temprature Values (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +212,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyStatusCode')
-data.setCell(0, 2, 'com.tv.testcases.APIWeatherTest')
-data.setCell(0, 3, 159);
+data.setCell(0, 1, 'getUITemprature')
+data.setCell(0, 2, 'com.tv.testcases.CompareTemp')
+data.setCell(0, 3, 4769);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getAPITemprature')
+data.setCell(1, 2, 'com.tv.testcases.CompareTemp')
+data.setCell(1, 3, 4130);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'compareTemprature')
+data.setCell(2, 2, 'com.tv.testcases.CompareTemp')
+data.setCell(2, 3, 2);
 window.suiteTableData['Weather_Test_Suite']= { tableData: data, tableDiv: 'times-div-Weather_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 159 ms</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Weather_Test_Suite">
               </div> <!-- times-div-Weather_Test_Suite -->
             </div> <!-- times-div -->
@@ -223,22 +255,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tv.testcases.APIWeatherTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tv.testcases.CompareTemp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">triggerDependency(API)</span>
+                <span class="method-name">triggerDependency(Web)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">generateURL_MemberDetails</span>
-                <span class="method-start">550 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14305 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyStatusCode</span>
-                <span class="method-start">27199 ms</span>
+                <span class="method-name">getUITemprature</span>
+                <span class="method-start">14390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAPITemprature</span>
+                <span class="method-start">19167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">compareTemprature</span>
+                <span class="method-start">23301 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">27520 ms</span>
+                <span class="method-start">23305 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

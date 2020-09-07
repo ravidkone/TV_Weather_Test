@@ -5,23 +5,10 @@
 		<listener class-name="com.tv.reports.TestListener" />
 	</listeners>
 
-	<test name="Check API Weather">
-		<parameter name="Automation" value="API"></parameter>
-		<classes>
-			<class name="com.tv.testcases.APIWeatherTest" />
-		</classes>
-	</test>
-	<test name="Check UI Weather">
-		<parameter name="Automation" value="Web"></parameter>
-		<classes>
-			<class name="com.tv.testcases.WeatherTest" />
-		</classes>
-	</test>
-
 	<test name="Compare Temprature Values">
+		<parameter name="Automation" value="Web"></parameter>
 		<classes>
 			<class name="com.tv.testcases.CompareTemp" />
 		</classes>
 	</test>
-
 </suite> 

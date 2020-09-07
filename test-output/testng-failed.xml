@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Weather Test Suite]">
+  <listeners>
+    <listener class-name="com.tv.reports.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Compare Temprature Values(failed)">
+    <parameter name="Automation" value="Web"/>
     <classes>
       <class name="com.tv.testcases.CompareTemp">
         <methods>
@@ -12,5 +16,5 @@
         </methods>
       </class> <!-- com.tv.testcases.CompareTemp -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Compare Temprature Values(failed) -->
+</suite> <!-- Failed suite [Weather Test Suite] -->
