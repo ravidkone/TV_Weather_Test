@@ -77,3 +77,5 @@ Step 2: It will open dialogue box, click on "directory" and choose the project f
     - Under "screenshots", we can find the screenshot of error occured during the excution.
     - Under "test-output"/index.html will provide the testNG html report
     - Under "pom.xml" we can find all the dependedancies and plugins
+    - "compareTemprature.xml" has the test cases to compare the temprature details for UI and API.
+    - "regression.xml" has the test cases separate for UI and API
