@@ -9,19 +9,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+
+import com.tv.utility.Constants;
 import com.tv.utility.TestBase;
 
 public class NdtvWeatherPage extends TestBase {
 	public static String city = System.getProperty("city");
-	public static String defaultCity = System.getProperty("DefaultCity");
+	public static String defaultCity = Constants.defaultCity;
 	@FindBy(id = "searchBox")
 	WebElement searchTab;
 	@FindBy(xpath = "//div[@class='message']/label")
 	List<WebElement> Citylist;
-	@FindBy(id = "Kanpur")
-	WebElement selectCity;
-	@FindBy(xpath = "//div[text()='Kanpur']")
-	WebElement clickCityWeather;
 	@FindBy(xpath = "//span[@class='heading']//b[contains(text(),'Degrees')]")
 	WebElement getWeatherDetails;
 
@@ -42,7 +40,7 @@ public class NdtvWeatherPage extends TestBase {
 			System.out.println("Entered city available to checking weather details");
 		} else {
 			System.out.println("Entered city not available, searching for default city");
-			searchTab.sendKeys(System.getProperty("DefaultCity"));
+			searchTab.sendKeys(defaultCity);
 			driver.findElement(By.id(defaultCity)).click();
 		}
 	}
@@ -52,7 +50,6 @@ public class NdtvWeatherPage extends TestBase {
 			String city = ele.getAttribute("for");
 			if (ele.getAttribute("for").equals(System.getProperty("city"))) {
 				searchTab.sendKeys(System.getProperty("city"));
-				oBrowserUtil.waitForElementVisible(driver, selectCity, 3);
 			WebElement	selectCity=driver.findElement(By.id(city));
 			selectCity.click();
 				return true;

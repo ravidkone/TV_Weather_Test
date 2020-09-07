@@ -664,3 +664,46 @@
 2020-09-07 21:08:28 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> id: Kanpur]
 2020-09-07 21:08:28 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
 2020-09-07 21:08:34 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 21:21:30 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-07 21:21:34 INFO  WeatherTest 27 - Test running on: Web
+2020-09-07 21:21:34 INFO  CommonUtility 30 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/config.properties
+2020-09-07 21:21:34 INFO  CommonUtility 37 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/log4j.properties
+2020-09-07 21:21:34 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:21:51 INFO  WeatherTest 35 - Automation running on: Web
+2020-09-07 21:21:51 INFO  WeatherTest 36 - Environment is: stage
+2020-09-07 21:24:09 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-07 21:24:14 INFO  WeatherTest 27 - Test running on: Web
+2020-09-07 21:24:14 INFO  CommonUtility 30 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/config.properties
+2020-09-07 21:24:14 INFO  CommonUtility 37 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/log4j.properties
+2020-09-07 21:24:14 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:24:29 INFO  WeatherTest 35 - Automation running on: Web
+2020-09-07 21:24:29 INFO  WeatherTest 36 - Environment is: stage
+2020-09-07 21:27:02 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:27:18 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 21:27:18 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 21:27:19 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7734eec7db8f11b9f8dd691be70fe157)] -> id: h_sub_menu]
+2020-09-07 21:28:51 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:29:06 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 21:29:06 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 21:29:07 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f7ed2be7d54ff6c486e7e03ce5b1ca5c)] -> id: h_sub_menu]
+2020-09-07 21:29:07 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f7ed2be7d54ff6c486e7e03ce5b1ca5c)] -> id: h_sub_menu]
+2020-09-07 21:29:07 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f7ed2be7d54ff6c486e7e03ce5b1ca5c)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:29:08 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f7ed2be7d54ff6c486e7e03ce5b1ca5c)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:29:13 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f7ed2be7d54ff6c486e7e03ce5b1ca5c)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 21:29:19 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 21:29:35 INFO  APIWeatherTest 41 - Environment is: stage
+2020-09-07 21:29:40 INFO  WeatherTest 27 - Test running on: Web
+2020-09-07 21:29:40 INFO  CommonUtility 30 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/config.properties
+2020-09-07 21:29:40 INFO  CommonUtility 37 - Current dir using System:C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test/src/main/java/com/tv/properties/log4j.properties
+2020-09-07 21:29:40 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:29:54 INFO  WeatherTest 35 - Automation running on: Web
+2020-09-07 21:29:54 INFO  WeatherTest 36 - Environment is: stage
+2020-09-07 21:29:58 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> id: h_sub_menu]
+2020-09-07 21:29:58 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> id: h_sub_menu]
+2020-09-07 21:29:59 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:29:59 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:30:01 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> id: searchBox]
+2020-09-07 21:30:01 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> id: searchBox]
+2020-09-07 21:30:01 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> id: searchBox]
+2020-09-07 21:30:04 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (a656b47bbec764ef86e32b8f296bbd40)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 21:30:05 INFO  WeatherTest 50 - Browser Closed

@@ -20,7 +20,7 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
-public class CommonUtility {
+public class CommonUtility{
 
 	FileInputStream fis;
 	Properties prop = new Properties();
