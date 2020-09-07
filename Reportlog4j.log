@@ -622,3 +622,45 @@
 2020-09-07 19:34:08 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (b8940aca087e1f42516c43d56a10663e)] -> xpath: //a[text()='WEATHER']]
 2020-09-07 19:34:12 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (b8940aca087e1f42516c43d56a10663e)] -> id: Kanpur]
 2020-09-07 19:34:12 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (b8940aca087e1f42516c43d56a10663e)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 20:00:36 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 20:00:50 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 20:00:50 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 20:00:51 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (b846d9d8c95111119436328bf34a3af1)] -> id: h_sub_menu]
+2020-09-07 20:00:51 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (b846d9d8c95111119436328bf34a3af1)] -> id: h_sub_menu]
+2020-09-07 20:01:22 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 20:31:40 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 20:31:55 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 20:31:55 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 20:31:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (e3943aa4b5c9871b99258f58b71c37c5)] -> id: h_sub_menu]
+2020-09-07 20:31:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (e3943aa4b5c9871b99258f58b71c37c5)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 20:31:59 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (e3943aa4b5c9871b99258f58b71c37c5)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 20:32:04 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (e3943aa4b5c9871b99258f58b71c37c5)] -> id: Kanpur]
+2020-09-07 20:32:04 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (e3943aa4b5c9871b99258f58b71c37c5)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 20:32:10 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 20:58:39 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 20:58:54 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 20:58:54 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 20:58:55 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (5835707fa2d4dbc775df87a375473b27)] -> id: h_sub_menu]
+2020-09-07 20:58:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (5835707fa2d4dbc775df87a375473b27)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 20:58:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (5835707fa2d4dbc775df87a375473b27)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 20:59:00 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (5835707fa2d4dbc775df87a375473b27)] -> id: Kanpur]
+2020-09-07 20:59:00 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (5835707fa2d4dbc775df87a375473b27)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 20:59:07 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 20:59:40 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 20:59:55 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 20:59:55 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 20:59:55 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7595ec0b4ffd81cc082d65a39ed214f9)] -> id: h_sub_menu]
+2020-09-07 20:59:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7595ec0b4ffd81cc082d65a39ed214f9)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 20:59:56 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7595ec0b4ffd81cc082d65a39ed214f9)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:00:01 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7595ec0b4ffd81cc082d65a39ed214f9)] -> id: Kanpur]
+2020-09-07 21:00:01 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (7595ec0b4ffd81cc082d65a39ed214f9)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 21:00:10 INFO  CompareTemp 50 - Browser Closed
+2020-09-07 21:08:04 INFO  BrowserUtility 23 - Launching Browser: chrome
+2020-09-07 21:08:21 INFO  CompareTemp 35 - Automation running on: Web
+2020-09-07 21:08:21 INFO  CompareTemp 36 - Environment is: stage
+2020-09-07 21:08:21 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> id: h_sub_menu]
+2020-09-07 21:08:22 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:08:22 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> xpath: //a[text()='WEATHER']]
+2020-09-07 21:08:28 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> id: Kanpur]
+2020-09-07 21:08:28 INFO  BrowserUtility 51 - Displayed [[ChromeDriver: chrome on WINDOWS (8479d201ed57248be48ff1eb67869d3c)] -> xpath: //span[@class='heading']//b[contains(text(),'Degrees')]]
+2020-09-07 21:08:34 INFO  CompareTemp 50 - Browser Closed

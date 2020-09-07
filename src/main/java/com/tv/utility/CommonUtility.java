@@ -85,7 +85,7 @@ public class CommonUtility {
 	public String compare(Double t1, Double t2) {
 		System.out.println("UI Temp: " + t1);
 		System.out.println("API Temp: " + t2);
-		System.out.println("Differance value is: " + (t1-t2));
+		System.out.println("Tempraure Differance value is: " + (t1-t2));
 		if ((t1-t2) == 0 || (t1-t2) < -2 ||(t1-t2) < 2) {
 			return "Pass";
 		} else {

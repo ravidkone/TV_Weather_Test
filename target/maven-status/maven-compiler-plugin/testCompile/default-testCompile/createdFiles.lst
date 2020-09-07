@@ -1,0 +1,5 @@
+com\tv\testcases\APIWeatherTest.class
+com\tv\testcases\CompareTemp.class
+com\tv\pom\pages\NdtvWeatherPage.class
+com\tv\pom\pages\NdtvHomePage.class
+com\tv\testcases\WeatherTest.class

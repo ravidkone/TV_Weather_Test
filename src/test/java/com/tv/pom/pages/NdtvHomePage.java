@@ -38,7 +38,7 @@ public class NdtvHomePage extends TestBase{
 		}
 	}
 	public void clickOnWeatherTab() throws Exception {
-		oBrowserUtil.waitForElementVisible(driver, subMenu, 2);
+		//oBrowserUtil.waitForElementVisible(driver, subMenu, 2);
 		if(oBrowserUtil.isDisplayed(subMenu)) {
 		subMenu.click();
 		extLogger.log(Status.INFO,"Clicked on sub Menu");

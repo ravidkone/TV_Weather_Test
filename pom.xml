@@ -98,7 +98,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>compareTemprature.xml </suiteXmlFile>
+						<suiteXmlFile>compareTemprature.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>

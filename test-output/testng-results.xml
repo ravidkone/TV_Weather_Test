@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Weather Test Suite" duration-ms="23319" started-at="2020-09-07T14:03:53Z" finished-at="2020-09-07T14:04:16Z">
+  <suite name="Weather Test Suite" duration-ms="30339" started-at="2020-09-07T15:38:04Z" finished-at="2020-09-07T15:38:34Z">
     <groups>
     </groups>
-    <test name="Compare Temprature Values" duration-ms="23319" started-at="2020-09-07T14:03:53Z" finished-at="2020-09-07T14:04:16Z">
+    <test name="Compare Temprature Values" duration-ms="30339" started-at="2020-09-07T15:38:04Z" finished-at="2020-09-07T15:38:34Z">
       <class name="com.tv.testcases.CompareTemp">
-        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="triggerDependency" is-config="true" duration-ms="14293" started-at="2020-09-07T14:03:53Z" finished-at="2020-09-07T14:04:07Z">
+        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="triggerDependency" is-config="true" duration-ms="16948" started-at="2020-09-07T15:38:04Z" finished-at="2020-09-07T15:38:21Z">
           <params>
             <param index="0">
               <value>
@@ -18,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- triggerDependency -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="85" started-at="2020-09-07T14:04:07Z" finished-at="2020-09-07T14:04:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="87" started-at="2020-09-07T15:38:21Z" finished-at="2020-09-07T15:38:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getUITemprature()[pri:1, instance:com.tv.testcases.CompareTemp@140e5a13]" name="getUITemprature" duration-ms="4769" started-at="2020-09-07T14:04:07Z" finished-at="2020-09-07T14:04:12Z">
+        <test-method status="PASS" signature="getUITemprature()[pri:1, instance:com.tv.testcases.CompareTemp@140e5a13]" name="getUITemprature" duration-ms="7103" started-at="2020-09-07T15:38:21Z" finished-at="2020-09-07T15:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUITemprature -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="2" started-at="2020-09-07T14:04:12Z" finished-at="2020-09-07T14:04:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="3" started-at="2020-09-07T15:38:28Z" finished-at="2020-09-07T15:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getAPITemprature()[pri:2, instance:com.tv.testcases.CompareTemp@140e5a13]" name="getAPITemprature" duration-ms="4130" started-at="2020-09-07T14:04:12Z" finished-at="2020-09-07T14:04:16Z">
+        <test-method status="PASS" signature="getAPITemprature()[pri:2, instance:com.tv.testcases.CompareTemp@140e5a13]" name="getAPITemprature" duration-ms="5113" started-at="2020-09-07T15:38:28Z" finished-at="2020-09-07T15:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPITemprature -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="1" started-at="2020-09-07T14:04:16Z" finished-at="2020-09-07T14:04:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="setUp" is-config="true" duration-ms="2" started-at="2020-09-07T15:38:33Z" finished-at="2020-09-07T15:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="compareTemprature()[pri:3, instance:com.tv.testcases.CompareTemp@140e5a13]" name="compareTemprature" duration-ms="2" started-at="2020-09-07T14:04:16Z" finished-at="2020-09-07T14:04:16Z">
+        <test-method status="PASS" signature="compareTemprature()[pri:3, instance:com.tv.testcases.CompareTemp@140e5a13]" name="compareTemprature" duration-ms="3" started-at="2020-09-07T15:38:33Z" finished-at="2020-09-07T15:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareTemprature -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-09-07T14:04:16Z" finished-at="2020-09-07T14:04:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tv.testcases.CompareTemp@140e5a13]" name="closeBrowser" is-config="true" duration-ms="1037" started-at="2020-09-07T15:38:33Z" finished-at="2020-09-07T15:38:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

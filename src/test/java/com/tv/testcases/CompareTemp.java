@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.tv.pom.pages.NdtvHomePage;
 import com.tv.pom.pages.NdtvWeatherPage;
 import com.tv.utility.Constants;
@@ -18,7 +19,7 @@ public class CompareTemp extends TestBase{
 
 	NdtvHomePage homePage;
 	NdtvWeatherPage weatherPage;
-	public double uiTemp;
+	public double UI_Temp;
 	String sURL;
 	Response res;
 	double API_Temp;
@@ -42,8 +43,9 @@ public class CompareTemp extends TestBase{
 			weatherPage.enterCity();
 			String temprature=weatherPage.getWeather();
 			String sTemp=temprature.replaceAll("\\D", "");
-			uiTemp=Double.parseDouble(sTemp);
-			System.out.println("temp is: "+uiTemp);
+			UI_Temp=Double.parseDouble(sTemp);
+			extLogger.log(Status.INFO,"Temprature from Web UI is: "+UI_Temp);
+			System.out.println("Temprature from Web UI is: "+UI_Temp);
 	}
 	@Test(priority = 2)
 	public void getAPITemprature() throws Exception {
@@ -54,13 +56,15 @@ public class CompareTemp extends TestBase{
 		double t=273.15;
 		double t1=Double.parseDouble(temprature);
 		API_Temp=t1-t; 
-		System.out.println("API Temp in degree: "+API_Temp);
+		extLogger.log(Status.INFO,"Temprature from API is: "+API_Temp);
+		System.out.println("Temprature from API is: "+API_Temp);
 	}
 	
 	@Test(priority = 3)
 	public void compareTemprature() {
-		String res = oCommon.compare(uiTemp, API_Temp);
-		System.out.println("result is:" + res);
+		String res = oCommon.compare(UI_Temp, API_Temp);
+		extLogger.log(Status.INFO,"Result is: "+res);
+		System.out.println("Result is: " + res);
 	}
 
 
