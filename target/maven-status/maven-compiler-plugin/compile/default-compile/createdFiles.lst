@@ -1,6 +1,4 @@
-com\tv\reports\ExtentManager.class
 com\tv\utility\RestUtility.class
-com\tv\reports\TestListener.class
 com\tv\utility\Constants.class
 com\tv\reports\ExtentManager$1.class
 com\tv\utility\BrowserUtility.class

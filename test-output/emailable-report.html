@@ -9,21 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Weather Test Suite</th></tr>
-<tr><td><a href="#t0">Check API Weather</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">4,129</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Check UI Weather</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">25,555</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">29,684</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Compare Temprature Values</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">63,522</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check API Weather &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.tv.testcases.APIWeatherTest</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1599494379993</td><td rowspan="1">0</td></tr><tr><th colspan="4">Check API Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.tv.testcases.APIWeatherTest</td><td><a href="#m1">getTemprature</a></td><td rowspan="1">1599494378924</td><td rowspan="1">1067</td></tr><tr class="passedeven"><td><a href="#m2">verifyStatusCode</a></td><td rowspan="1">1599494378892</td><td rowspan="1">13</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Check UI Weather &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.tv.testcases.WeatherTest</td><td><a href="#m3">clickonWeatherTab</a></td><td rowspan="1">1599494396953</td><td rowspan="1">3024</td></tr><tr class="passedeven"><td><a href="#m4">selectCity</a></td><td rowspan="1">1599494401705</td><td rowspan="1">3201</td></tr><tr class="passedeven"><td><a href="#m5">verifyHomePageTitle</a></td><td rowspan="1">1599494394880</td><td rowspan="1">2068</td></tr><tr class="passedeven"><td><a href="#m6">verifyWeatherPageTitle</a></td><td rowspan="1">1599494399982</td><td rowspan="1">1717</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Compare Temprature Values &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tv.testcases.CompareTemp</td><td><a href="#m0">getUITemprature</a></td><td rowspan="1">1600340022353</td><td rowspan="1">44568</td></tr><tr><th colspan="4">Compare Temprature Values &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.tv.testcases.CompareTemp</td><td><a href="#m1">compareTemprature</a></td><td rowspan="1">1600340071939</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m2">getAPITemprature</a></td><td rowspan="1">1600340069377</td><td rowspan="1">2560</td></tr></tbody>
 </table>
-<h2>Check API Weather</h2><h3 id="m0">com.tv.testcases.APIWeatherTest#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.tv.utility.TestBase.closeBrowser(TestBase.java:49)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.tv.testcases.APIWeatherTest#getTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.tv.testcases.APIWeatherTest#verifyStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Check UI Weather</h2><h3 id="m3">com.tv.testcases.WeatherTest#clickonWeatherTab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.tv.testcases.WeatherTest#selectCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.tv.testcases.WeatherTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.tv.testcases.WeatherTest#verifyWeatherPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Compare Temprature Values</h2><h3 id="m0">com.tv.testcases.CompareTemp#getUITemprature</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Kanpur&apos;]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;W-PF2A7J2T&apos;, ip: &apos;10.177.101.32&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\C5312284\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f264e2cfffc8e2ac0fe5499ad0d9544
+*** Element info: {Using=xpath, value=//div[text()=&apos;Kanpur&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.tv.pom.pages.NdtvWeatherPage.getWeather(NdtvWeatherPage.java:67)
+	at com.tv.testcases.CompareTemp.getUITemprature(CompareTemp.java:44)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tv.testcases.CompareTemp#compareTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tv.testcases.CompareTemp#getAPITemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

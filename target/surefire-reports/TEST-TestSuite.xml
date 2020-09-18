@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.934" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="69.451" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\C5312284\MyWorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf145564831361939021.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\C5312284\MyWorkSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4846642102345655975.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\C5312284\OneDrive - SAP SE\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_261\bin;;C:\Users\C5312284\OneDrive - SAP SE\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +60,51 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="getUITemprature" classname="com.tv.testcases.CompareTemp" time="6.535"/>
-  <testcase name="getAPITemprature" classname="com.tv.testcases.CompareTemp" time="7.869"/>
+  <testcase name="getUITemprature" classname="com.tv.testcases.CompareTemp" time="43.343">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Kanpur&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;W-PF2A7J2T&apos;, ip: &apos;10.98.229.250&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\C5312284\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f82cfedfa9005f21d1f1d1b0dba0c422&#10;*** Element info: {Using=xpath, value=//div[text()=&apos;Kanpur&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Kanpur']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'W-PF2A7J2T', ip: '10.98.229.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\C5312284\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f82cfedfa9005f21d1f1d1b0dba0c422
+*** Element info: {Using=xpath, value=//div[text()='Kanpur']}
+	at com.tv.testcases.CompareTemp.getUITemprature(CompareTemp.java:46)
+</failure>
+    <system-out><![CDATA[windows 10
+Directory already exists: C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test\TestReport
+ExtentReport Path for WINDOWS: C:\Users\C5312284\MyWorkSpace\Test_TV\TV_Weather_Test\TestReport
+
+Test Suite started!
+*******************
+INFO BrowserUtility : 23 - Launching Browser: chrome
+INFO CompareTemp : 35 - Automation running on: Web
+INFO CompareTemp : 36 - Environment is: stage
+getUITemprature started!
+INFO BrowserUtility : 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f82cfedfa9005f21d1f1d1b0dba0c422)] -> id: h_sub_menu]
+INFO BrowserUtility : 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f82cfedfa9005f21d1f1d1b0dba0c422)] -> id: h_sub_menu]
+INFO BrowserUtility : 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f82cfedfa9005f21d1f1d1b0dba0c422)] -> xpath: //a[text()='WEATHER']]
+INFO BrowserUtility : 51 - Displayed [[ChromeDriver: chrome on WINDOWS (f82cfedfa9005f21d1f1d1b0dba0c422)] -> xpath: //a[text()='WEATHER']]
+Entered city available to checking weather details
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (CompareTemp).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:ERROR Could not find value for key log4j.appender.console
+log4j:ERROR Could not instantiate appender named "console".
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31666
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 18, 2020 3:38:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="getAPITemprature" classname="com.tv.testcases.CompareTemp" time="2.937"/>
   <testcase name="compareTemprature" classname="com.tv.testcases.CompareTemp" time="0.001"/>
 </testsuite>

@@ -9,12 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Weather Test Suite</th></tr>
-<tr><td><a href="#t0">Compare Temprature Values</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">30,210</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Compare Temprature Values</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">68,558</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Compare Temprature Values &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.tv.testcases.CompareTemp</td><td><a href="#m0">compareTemprature</a></td><td rowspan="1">1599492609812</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">getAPITemprature</a></td><td rowspan="1">1599492601939</td><td rowspan="1">7870</td></tr><tr class="passedeven"><td><a href="#m2">getUITemprature</a></td><td rowspan="1">1599492595401</td><td rowspan="1">6533</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Weather Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Compare Temprature Values &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tv.testcases.CompareTemp</td><td><a href="#m0">getUITemprature</a></td><td rowspan="1">1600423722167</td><td rowspan="1">43332</td></tr><tr><th colspan="4">Compare Temprature Values &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.tv.testcases.CompareTemp</td><td><a href="#m1">compareTemprature</a></td><td rowspan="1">1600423770985</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">getAPITemprature</a></td><td rowspan="1">1600423768047</td><td rowspan="1">2936</td></tr></tbody>
 </table>
-<h2>Compare Temprature Values</h2><h3 id="m0">com.tv.testcases.CompareTemp#compareTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.tv.testcases.CompareTemp#getAPITemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.tv.testcases.CompareTemp#getUITemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Compare Temprature Values</h2><h3 id="m0">com.tv.testcases.CompareTemp#getUITemprature</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Kanpur&apos;]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;W-PF2A7J2T&apos;, ip: &apos;10.98.229.250&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\C5312284\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f82cfedfa9005f21d1f1d1b0dba0c422
+*** Element info: {Using=xpath, value=//div[text()=&apos;Kanpur&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.tv.pom.pages.NdtvWeatherPage.getWeather(NdtvWeatherPage.java:67)
+	at com.tv.testcases.CompareTemp.getUITemprature(CompareTemp.java:46)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tv.testcases.CompareTemp#compareTemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tv.testcases.CompareTemp#getAPITemprature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
